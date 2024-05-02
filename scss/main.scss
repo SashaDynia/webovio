@@ -8,6 +8,11 @@ body {
   font-family: $mainFontFamily;
 }
 
+.container {
+    max-width: 1200px
+    margin: 0 auto;
+	padding: 0 15px;
+}
 //!Components
 @import "./components/footer.scss";
 @import "./components/header.scss";
