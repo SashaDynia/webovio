@@ -1,7 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,italic,500,600,700&display=swap");
+
+//!Base
 @import "./base/reset.scss";
 @import "./base/variables.scss";
 
+body {
+  font-family: $mainFontFamily;
+}
+
+//!Components
 @import "./components/footer.scss";
 @import "./components/header.scss";
 
+//!pages
 @import "./pages/home.scss";
