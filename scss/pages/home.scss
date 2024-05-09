@@ -60,3 +60,37 @@
     color: $yellowColor;
   }
 }
+.home {
+  // .home__partners
+
+  // &__partners {
+  // }
+}
+.partners-home {
+  // .partners-home__container
+
+  &__container {
+  }
+
+  // .partners-home__list
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 60px 170px 60px 65px;
+    box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
+    background-color: $whiteColor;
+  }
+
+  // .partners-home__item
+
+  &__item {
+  }
+
+  // .partners-home__img
+
+  &__img {
+    object-fit: contain;
+  }
+}
