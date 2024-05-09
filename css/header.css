@@ -1,0 +1,31 @@
+.header {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  width: 100%;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  min-height: 36px;
+}
+.header__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #f5f6f7;
+  min-width: 40px;
+  min-height: 40px;
+}
+.header__button svg {
+  width: 18px;
+  height: 13px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
