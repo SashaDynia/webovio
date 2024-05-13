@@ -53,3 +53,39 @@
   -o-object-fit: contain;
      object-fit: contain;
 }
+
+.about-home__content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  max-width: 475px;
+}
+.about-home__top {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: flex-start;
+}
+.about-home__text {
+  color: rgba(77, 83, 60, 0.9);
+}
+.about-home__title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 128%;
+  color: #4d533c;
+}
+.about-home__description {
+  color: rgba(33, 56, 66, 0.6);
+  font-size: 16px;
+  line-height: 162%;
+}
+.about-home__link {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #d4d6d4;
+}

@@ -101,3 +101,112 @@
     object-fit: contain;
   }
 }
+
+.about-home {
+  // .about-home__container
+
+  &__container {
+  }
+
+  // .about-home__wrapper
+
+  &__wrapper {
+  }
+
+  // .about-home__content
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    max-width: 475px;
+  }
+
+  // .about-home__top
+
+  &__top {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: flex-start;
+  }
+
+  // .about-home__text
+
+  &__text {
+    color: rgba(77, 83, 60, 0.9);
+  }
+
+  // .about-home__title
+
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 128%;
+    color: #4d533c;
+  }
+
+  &__description {
+    color: rgba(33, 56, 66, 0.6);
+    font-size: 16px;
+    line-height: 162%;
+  }
+
+  // .about-home__bottom
+
+  &__bottom {
+  }
+
+  // .about-home__link
+
+  &__link {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #d4d6d4;
+  }
+
+  // .about-home__review
+
+  &__review {
+  }
+
+  // .about-home__underline
+
+  &__underline {
+  }
+}
+
+.review-home {
+  // .review-home__text
+
+  &__text {
+  }
+
+  // .review-home__people
+
+  &__people {
+  }
+
+  // .review-home__img
+
+  &__img {
+  }
+
+  // .review-home__content
+
+  &__content {
+  }
+
+  // .review-home__name
+
+  &__name {
+  }
+
+  // .review-home__post
+
+  &__post {
+  }
+}
