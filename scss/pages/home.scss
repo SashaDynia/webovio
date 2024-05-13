@@ -111,6 +111,9 @@
   // .about-home__wrapper
 
   &__wrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
   }
 
   // .about-home__content
@@ -181,18 +184,35 @@
 
 .review-home {
   // .review-home__text
-
+  max-width: 475px;
+  box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.15);
+  background: #fff;
   &__text {
+    font-style: italic;
+    font-size: 24px;
+    line-height: 167%;
+    color: #4d533c;
+    margin-bottom: 50px;
   }
 
   // .review-home__people
 
   &__people {
+    display: flex;
+    gap: 30px;
+    align-items: center;
   }
 
   // .review-home__img
 
   &__img {
+    max-width: 90px;
+    max-height: 90px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   }
 
   // .review-home__content
@@ -203,10 +223,16 @@
   // .review-home__name
 
   &__name {
+    font-weight: 700;
+    font-size: 22px;
+    color: #4d533c;
+    margin-bottom: 6px;
   }
 
   // .review-home__post
 
   &__post {
+    font-size: 16px;
+    color: #152934;
   }
 }
