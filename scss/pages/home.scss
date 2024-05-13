@@ -69,7 +69,15 @@
 .partners-home {
   // .partners-home__container
 
+  display: flex;
+  justify-content: flex-end;
+
   &__container {
+    position: relative;
+    right: 0;
+    top: -100px;
+    box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
+    background-color: $whiteColor;
   }
 
   // .partners-home__list
@@ -79,8 +87,7 @@
     align-items: center;
     gap: 70px;
     padding: 60px 170px 60px 65px;
-    box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
-    background-color: $whiteColor;
+    // width: 90%;
   }
 
   // .partners-home__item

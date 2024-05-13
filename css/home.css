@@ -32,13 +32,22 @@
   color: #ffd723;
 }
 
+.partners-home {
+  display: flex;
+  justify-content: flex-end;
+}
+.partners-home__container {
+  position: relative;
+  right: 0;
+  top: -100px;
+  box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+}
 .partners-home__list {
   display: flex;
   align-items: center;
   gap: 70px;
   padding: 60px 170px 60px 65px;
-  box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
-  background-color: #fff;
 }
 .partners-home__img {
   -o-object-fit: contain;
