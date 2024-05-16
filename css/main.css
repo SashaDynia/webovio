@@ -278,6 +278,7 @@ body {
 .about-home__content {
   display: flex;
   flex-direction: column;
+  padding-top: 250px;
   gap: 40px;
   align-items: flex-start;
   max-width: 475px;
@@ -310,7 +311,15 @@ body {
           text-decoration-skip-ink: none;
   color: #d4d6d4;
 }
+.about-home__underline {
+  margin-top: 150px;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(33, 56, 66, 0.1);
+}
+
 .review-home {
+  padding: 250px 40px 60px 40px;
   max-width: 475px;
   box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.15);
   background: #fff;
@@ -328,6 +337,9 @@ body {
   align-items: center;
 }
 .review-home__img {
+  box-shadow: 20px 25px 43px 0 rgba(0, 0, 0, 0.18);
+  border-radius: 50%;
+  overflow: hidden;
   max-width: 90px;
   max-height: 90px;
 }
@@ -401,5 +413,5 @@ body {
   transition: color 0.3s ease 0s;
 }
 .evaluation-home__link:hover {
-  color: #FFD723;
+  color: #ffd723;
 }

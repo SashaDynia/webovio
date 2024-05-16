@@ -121,6 +121,7 @@
   &__content {
     display: flex;
     flex-direction: column;
+    padding-top: 250px;
     gap: 40px;
     align-items: flex-start;
     max-width: 475px;
@@ -179,11 +180,16 @@
   // .about-home__underline
 
   &__underline {
+    margin-top: 150px;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(33, 56, 66, 0.1);
   }
 }
 
 .review-home {
   // .review-home__text
+  padding: 250px 40px 60px 40px;
   max-width: 475px;
   box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.15);
   background: #fff;
@@ -206,6 +212,9 @@
   // .review-home__img
 
   &__img {
+    box-shadow: 20px 25px 43px 0 rgba(0, 0, 0, 0.18);
+    border-radius: 50%;
+    overflow: hidden;
     max-width: 90px;
     max-height: 90px;
     img {
