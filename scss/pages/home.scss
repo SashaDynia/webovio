@@ -1,5 +1,8 @@
 @import "../base/variables.scss";
 .home {
+  &__wrapper {
+    position: relative;
+  }
   // .home__hero
 
   &__hero {
@@ -67,15 +70,15 @@
   // }
 }
 .partners-home {
+  position: absolute;
+  right: 0;
+  bottom: -125px;
   // .partners-home__container
 
   display: flex;
   justify-content: flex-end;
 
   &__container {
-    position: relative;
-    right: 0;
-    top: -100px;
     box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
     background-color: $whiteColor;
   }
@@ -103,6 +106,7 @@
 }
 
 .about-home {
+  //margin-top: -150px;
   // .about-home__container
 
   &__container {

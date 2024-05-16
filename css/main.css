@@ -183,6 +183,7 @@ body {
 }
 
 .header {
+  z-index: 1;
   position: absolute;
   top: 24px;
   left: 0;
@@ -214,6 +215,9 @@ body {
      object-fit: contain;
 }
 
+.home__wrapper {
+  position: relative;
+}
 .hero-home {
   background: url("/img/background-hero.png") center/cover no-repeat;
   color: #fff;
@@ -249,13 +253,13 @@ body {
 }
 
 .partners-home {
+  position: absolute;
+  right: 0;
+  bottom: -125px;
   display: flex;
   justify-content: flex-end;
 }
 .partners-home__container {
-  position: relative;
-  right: 0;
-  top: -100px;
   box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
   background-color: #fff;
 }
