@@ -297,6 +297,11 @@ body {
   display: flex;
   justify-content: flex-end;
 }
+@media screen and (max-width: 1200px) {
+  .partners-home {
+    position: static;
+  }
+}
 .partners-home__container {
   box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
   background-color: #fff;
@@ -306,6 +311,25 @@ body {
   align-items: center;
   gap: 70px;
   padding: 60px 170px 60px 65px;
+}
+@media screen and (max-width: 992px) {
+  .partners-home__list {
+    padding: 60px;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .partners-home__list {
+    padding: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .partners-home__list {
+    padding: 20px;
+  }
 }
 .partners-home__img {
   -o-object-fit: contain;

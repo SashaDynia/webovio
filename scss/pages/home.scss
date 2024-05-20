@@ -98,6 +98,9 @@
 
   display: flex;
   justify-content: flex-end;
+  @media screen and (max-width: $desktop) {
+    position: static;
+  }
 
   &__container {
     box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
@@ -112,6 +115,21 @@
     gap: 70px;
     padding: 60px 170px 60px 65px;
     // width: 90%;
+    @media screen and (max-width: 992px) {
+      padding: 60px;
+      gap: 30px;
+    }
+
+    @media screen and (max-width: $tablet) {
+      padding: 30px;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    @media screen and (max-width: $mobile) {
+      padding: 20px;
+    }
   }
 
   // .partners-home__item
