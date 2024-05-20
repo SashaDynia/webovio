@@ -118,6 +118,12 @@
   display: flex;
   gap: 30px;
   justify-content: space-between;
+  gap: 35px;
+}
+@media screen and (max-width: 768px) {
+  .about-home__wrapper {
+    align-items: flex-start;
+  }
 }
 .about-home__content {
   display: flex;
@@ -127,11 +133,21 @@
   align-items: flex-start;
   max-width: 475px;
 }
+@media screen and (max-width: 768px) {
+  .about-home__content {
+    padding-top: 150px;
+  }
+}
 .about-home__top {
   display: flex;
   flex-direction: column;
   gap: 35px;
   align-items: flex-start;
+}
+@media screen and (max-width: 768px) {
+  .about-home__top {
+    gap: 25px;
+  }
 }
 .about-home__text {
   color: rgba(77, 83, 60, 0.9);
@@ -141,6 +157,11 @@
   font-weight: 700;
   line-height: 128%;
   color: #4d533c;
+}
+@media screen and (max-width: 768px) {
+  .about-home__title {
+    font-size: 30px;
+  }
 }
 .about-home__description {
   color: rgba(33, 56, 66, 0.6);
@@ -168,12 +189,22 @@
   box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.15);
   background: #fff;
 }
+@media screen and (max-width: 768px) {
+  .review-home {
+    padding: 150px 40px 60px 40px;
+  }
+}
 .review-home__text {
   font-style: italic;
   font-size: 24px;
   line-height: 167%;
   color: #4d533c;
   margin-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .review-home__text {
+    font-size: 22px;
+  }
 }
 .review-home__people {
   display: flex;

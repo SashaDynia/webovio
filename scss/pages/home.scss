@@ -157,6 +157,10 @@
     display: flex;
     gap: 30px;
     justify-content: space-between;
+    gap: 35px;
+    @media screen and (max-width: $tablet) {
+      align-items: flex-start;
+    }
   }
 
   // .about-home__content
@@ -168,6 +172,9 @@
     gap: 40px;
     align-items: flex-start;
     max-width: 475px;
+    @media screen and (max-width: $tablet) {
+      padding-top: 150px;
+    }
   }
 
   // .about-home__top
@@ -177,6 +184,9 @@
     flex-direction: column;
     gap: 35px;
     align-items: flex-start;
+    @media screen and (max-width: $tablet) {
+      gap: 25px;
+    }
   }
 
   // .about-home__text
@@ -192,6 +202,9 @@
     font-weight: 700;
     line-height: 128%;
     color: #4d533c;
+    @media screen and (max-width: $tablet) {
+      font-size: 30px;
+    }
   }
 
   &__description {
@@ -233,15 +246,22 @@
 .review-home {
   // .review-home__text
   padding: 250px 40px 60px 40px;
+
   max-width: 475px;
   box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.15);
   background: #fff;
+  @media screen and (max-width: $tablet) {
+    padding: 150px 40px 60px 40px;
+  }
   &__text {
     font-style: italic;
     font-size: 24px;
     line-height: 167%;
     color: #4d533c;
     margin-bottom: 50px;
+    @media screen and (max-width: $tablet) {
+      font-size: 22px;
+    }
   }
 
   // .review-home__people
