@@ -199,6 +199,11 @@ body {
   align-items: center;
   min-height: 36px;
 }
+@media screen and (max-width: 480px) {
+  .header__logo svg:nth-child(2) {
+    display: none;
+  }
+}
 .header__button {
   display: flex;
   align-items: center;

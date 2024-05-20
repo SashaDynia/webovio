@@ -1,3 +1,5 @@
+@import "../base/variables.scss";
+
 .header {
   z-index: 1;
   position: absolute;
@@ -24,6 +26,14 @@
     display: flex;
     align-items: center;
     min-height: 36px;
+
+    svg {
+      &:nth-child(2) {
+        @media screen and (max-width: $mobile) {
+          display: none;
+        }
+      }
+    }
   }
 
   // .header__button
