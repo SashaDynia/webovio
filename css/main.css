@@ -345,6 +345,7 @@ body {
 @media screen and (max-width: 768px) {
   .about-home__wrapper {
     align-items: flex-start;
+    flex-direction: column;
   }
 }
 .about-home__content {
@@ -404,6 +405,16 @@ body {
   height: 1px;
   background-color: rgba(33, 56, 66, 0.1);
 }
+@media screen and (max-width: 768px) {
+  .about-home__underline {
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .about-home__underline {
+    margin-top: 50px;
+  }
+}
 
 .review-home {
   padding: 250px 40px 60px 40px;
@@ -416,6 +427,11 @@ body {
     padding: 150px 40px 60px 40px;
   }
 }
+@media screen and (max-width: 480px) {
+  .review-home {
+    padding: 30px;
+  }
+}
 .review-home__text {
   font-style: italic;
   font-size: 24px;
@@ -426,6 +442,11 @@ body {
 @media screen and (max-width: 768px) {
   .review-home__text {
     font-size: 22px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .review-home__text {
+    font-size: 18px;
   }
 }
 .review-home__people {
