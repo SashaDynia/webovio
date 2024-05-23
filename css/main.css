@@ -299,6 +299,7 @@ body {
   position: absolute;
   right: 0;
   bottom: -125px;
+  z-index: 1;
   display: flex;
   justify-content: flex-end;
 }
