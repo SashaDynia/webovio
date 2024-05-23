@@ -324,6 +324,15 @@
 .evaluation-home {
   padding-top: 150px;
   padding-bottom: 150px;
+  @media screen and (max-width: $tablet) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  @media screen and (max-width: $mobile) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   // .evaluation-home__container
 
   &__container {
@@ -331,6 +340,10 @@
     gap: 60px;
     flex-direction: column;
     align-items: flex-start;
+
+    @media screen and (max-width: $mobile) {
+      gap: 30px;
+    }
   }
 
   // .evaluation-home__title
@@ -341,12 +354,21 @@
     line-height: 128%;
     color: #4d533c;
     max-width: 50%;
+
+    @media screen and (max-width: $tablet) {
+      font-size: 30px;
+    }
+
+    @media screen and (max-width: $mobile) {
+      max-width: 100%;
+    }
   }
 
   // .evaluation-home__list
 
   &__list {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 30px;
   }
@@ -360,6 +382,14 @@
     flex-direction: column;
     gap: 30px;
     justify-content: space-between;
+
+    @media screen and (max-width: 992px) {
+      flex: 1 1 calc((100% - 1 * 30px) / 2);
+    }
+
+    @media screen and (max-width: $mobile) {
+      flex: 1 1 calc((100% - 0 * 30px) / 1);
+    }
   }
 
   //.evaluation-home__wrapper
