@@ -2,8 +2,13 @@
   position: relative;
 }
 .hero-home {
-  background: url("/img/background-hero.png") center/cover no-repeat;
+  background: url("/img/background-hero@desktop-1x.png") center/cover no-repeat;
   color: #fff;
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero-home {
+    background-image: url(/img/background-hero@desktop-2x.png);
+  }
 }
 .hero-home__wrapper {
   padding-top: 190px;
